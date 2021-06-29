@@ -22,9 +22,10 @@ The environment or the requirements for running the project:
 We have made improvements on the whole coding with implementation of Python and PyTorch. So the simulation with all the 
 methodologies used in our work can be executed easily with the following actions:
 
-### (1) Simulation with PDQN (_DQN + PS_)
+### (1) Simulation with PDQN = _DQN + PS_
 ```
 python main.py
+python main.py --model 1
 python main.py --model 1 --ps 1
 ```
 The default methodology used is PDQN without any argument parser highlighted.
@@ -33,8 +34,9 @@ The default methodology used is PDQN without any argument parser highlighted.
 ```
 python main.py --model 1 --ps 2
 ```
-### (3) Simulation with QL (_with PS_)
+### (3) Simulation with QL _with PS_
 ```
+python main.py --model 2
 python main.py --model 2 --ps 1
 ```
 ### (4) Simulation with QL
@@ -53,6 +55,8 @@ We indicated the total rewards as the criterion for comparison among performance
   publisher={IEEE}
 }
 ```
+[![DOI](https://zenodo.org/badge/204208249.svg)](https://zenodo.org/badge/latestdoi/204208249)
+
 ## License
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
