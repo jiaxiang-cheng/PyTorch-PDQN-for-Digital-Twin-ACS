@@ -8,6 +8,9 @@ Official repository for our publications:
 - [Adaptive Optimization Method in Digital Twin Conveyor Systems via Range-Inspection Control (2020)](https://ieeexplore.ieee.org/abstract/document/9303438)   
 - [Optimal Look-ahead Control of CSPS System by Deep Q-Network and Profit Sharing (2018)](https://ieeexplore.ieee.org/abstract/document/8623593)
 
+
+![Concept](https://github.com/jiaxiang-cheng/PyTorch-PDQN-for-Digital-Twin-ACS/blob/master/_trials/10.1109:TASE.2020.3043393_fig2.png?raw=true)
+
 ## Environment
 
 The environment or the requirements for running the project:
